@@ -5,12 +5,11 @@
  */
 package Principal;
 
-import ClassesBackup.*;
+import ClasseBackup.Backup;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.net.URL;
-
 /**
  *
  * @author dionm
@@ -21,7 +20,14 @@ public class Inicializador {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws Exception{
-        // TODO code application logic here
+        InputStream fis = new FileInputStream("C:/Users/dionm/Downloads/Faculdade/4P/Programação/TrabalhoM1/5Mb.txt");
+        
+        OutputStream fos = new FileOutputStream("Teste.txt");
+        
+        Backup aaa = new Backup();
+        
+        double tempo = aaa.fazerBackup(fis, fos);
+        
+        System.out.println(tempo);
     }
-    
 }
