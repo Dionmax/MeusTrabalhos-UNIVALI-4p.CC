@@ -7,6 +7,7 @@ package Principal;
 
 import ClasseBackup.Backup;
 import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStream;
@@ -25,9 +26,11 @@ public class Inicializador {
         
         OutputStream fos = new FileOutputStream("C:/Users/dionm/Downloads/Faculdade/4P/Programação/TrabalhoM1/AquivosPosBackup/TesteBuffer50Mb5.txt");
         
+        BufferedOutputStream bos = new BufferedOutputStream(fos);
+        
         Backup aaa = new Backup();
         
-        double tempo = aaa.fazerBackup(fis, fos);
+        double tempo = aaa.fazerBackup(fis, bos);
         
         System.out.println(tempo);
     }
