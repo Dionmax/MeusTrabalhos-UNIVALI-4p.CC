@@ -28,9 +28,9 @@ public class Inicializador {
         
         BufferedOutputStream bos = new BufferedOutputStream(fos);
         
-        Backup aaa = new Backup();
+        Backup Streams = new Backup();
         
-        double tempo = aaa.fazerBackup(fis, bos);
+        double tempo = Streams.fazerBackup(fis, bos);
         
         System.out.println(tempo);
     }
