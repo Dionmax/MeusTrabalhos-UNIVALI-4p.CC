@@ -1,3 +1,5 @@
+
+
 Método de eliminação de Gauss Jacobi
 
 Esse é o método de eliminação de Gauss Jacobi, juntamente com o critério de Verificação das linhas.
