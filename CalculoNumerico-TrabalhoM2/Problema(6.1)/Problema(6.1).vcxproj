@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{DCFB54C0-C161-4B07-B5B8-BD5D5DE9330B}</ProjectGuid>
+    <ProjectGuid>{ED6072F6-9799-4136-8B05-2F98C4503618}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Problema6</RootNamespace>
+    <RootNamespace>Problema61</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -160,7 +160,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Problema(6).cpp" />
+    <ClCompile Include="Problema(6.1).cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
