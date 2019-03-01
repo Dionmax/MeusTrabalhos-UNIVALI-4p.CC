@@ -1,0 +1,4 @@
+﻿  TrabalhoAO2-ProgramacaoParalela.cpp
+c1xx : warning C4199: não há suporte para a pesquisa de nome de duas fases para C++/CLI, C++/CX, ou OpenMP; use /Zc:twoPhase-
+  LINK : C:\Users\dionm\Source\Repos\Dionmax\MeusTrabalhos-UNIVALI-4p.CC\TrabalhoAO2-ProgramacaoParalela\x64\Debug\TrabalhoAO2-ProgramacaoParalela.exe não encontrado ou não compilado pelo o último link incremental; executando link completo
+  TrabalhoAO2-ProgramacaoParalela.vcxproj -> C:\Users\dionm\Source\Repos\Dionmax\MeusTrabalhos-UNIVALI-4p.CC\TrabalhoAO2-ProgramacaoParalela\x64\Debug\TrabalhoAO2-ProgramacaoParalela.exe
